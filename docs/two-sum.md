@@ -1,0 +1,12 @@
+# two sum
+https://leetcode.com/problems/two-sum/
+
+### try 1
+* loop through all numbers
+* check if sum of two unique numbers equals target
+* assign index and return if found [-1, -1] if not
+
+### try 2
+after looking at leetcode official solution
+* calculate complement in advance to reduce arithmetic (n^2 -> n)
+* return 0 size array if not found
