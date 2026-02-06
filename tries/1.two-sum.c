@@ -26,6 +26,8 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 
 
     // try 2
+    // <used hint 1>
+    //
     // improvements:
     //      * less arithmetic by calculating complement in advance
 
